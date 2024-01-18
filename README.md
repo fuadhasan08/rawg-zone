@@ -19,3 +19,4 @@ It's a simple video game listing site made using React and Typescript. It has a 
 - Filtering
 - Search
 - Loading Skeleton
+- Dark Mode Toggling
