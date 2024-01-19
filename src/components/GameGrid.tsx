@@ -10,8 +10,8 @@ const GameGrid = () => {
   if (loading) {
     return (
       <GridContainer>
-        {Array.from({ length: 12 }).map(() => {
-          return <GameSkeleton />;
+        {Array.from({ length: 12 }).map((_i, idx) => {
+          return <GameSkeleton key={idx} />;
         })}
       </GridContainer>
     );
